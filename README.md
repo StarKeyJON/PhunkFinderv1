@@ -3,6 +3,12 @@ You will need to enter in your Infura wss key into /src/components/PhunkDisplay/
 The rest should be a standard CRA Install/Start operation to get going.
 I'm currently working on a new build with a backend DB and frontend like this desing here.
 
+This design currectly fetches fresh data from many api endpoints at every client connection, so I created a function to query all the necessary endpoints and update a mongo DB, server side, on a set timeframe. This will reduce the amount of api calls and also it gives specific http endpoints as some were requesting, and overall better handling of the data.
+
+The NLL component needed work on how the data was fetched and sorted, because at the moment it is designed to fetch all phunks listed for sale events from the smart contract and then goes through a sorting function to seperate out repeats and old listings, but there needed to be an extra call to the contract to see if that Phunk is still listed for sale because old Phunks that weren't listed for sale anymore were showing up. This ended up in too many requests happening client side, and a overall need to redesign the whole thing and learn more.
+
+I'm pretty happy with the progress so far.
+
 Please feel free to take it apart and put it back together how you see fit! This has been a journey in creating and deploying my first website, hosted with digitalocean.
 
 Happy Hacking!
