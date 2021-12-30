@@ -1,0 +1,40 @@
+.containers {
+    display: flex;
+     justify-content: space-between;
+     background-color: lightgray;
+     position: relative;
+  }
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+  
+
+.glow {
+    /* font-size: 80px; */
+    text-align: center;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FF10F0;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #FF10F0, 0 0 30px #FF10F0,;
+    }
+  }
+  
+.glowy {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF10F0
+}
+
+.traits {
+  overflow-y: scroll;
+}
+
+.inver {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  }

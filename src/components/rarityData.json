@@ -1,0 +1,721 @@
+[
+    {
+        "name": "id",
+        "type": "primaryKey"
+    },
+    {
+        "name": "Attribute Count",
+        "type": "category",
+        "pvs": [
+            [
+                "0",
+                8,
+                0
+            ],
+            [
+                "1",
+                333,
+                0
+            ],
+            [
+                "2",
+                3560,
+                0
+            ],
+            [
+                "3",
+                4501,
+                0
+            ],
+            [
+                "4",
+                1420,
+                0
+            ],
+            [
+                "5",
+                166,
+                0
+            ],
+            [
+                "6",
+                11,
+                0
+            ],
+            [
+                "7",
+                1,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Punk Type",
+        "weight": 0,
+        "type": "category",
+        "pvs": [
+            [
+                "Alien",
+                9,
+                0
+            ],
+            [
+                "Ape",
+                24,
+                0
+            ],
+            [
+                "Female",
+                3840,
+                0
+            ],
+            [
+                "Male",
+                6039,
+                0
+            ],
+            [
+                "Zombie",
+                88,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Skin Tone",
+        "weight": 0,
+        "type": "category",
+        "pvs": [
+            [
+                "Albino",
+                1018,
+                0
+            ],
+            [
+                "Alien",
+                9,
+                0
+            ],
+            [
+                "Ape",
+                24,
+                0
+            ],
+            [
+                "Dark",
+                2824,
+                0
+            ],
+            [
+                "Light",
+                3006,
+                0
+            ],
+            [
+                "Mid",
+                3031,
+                0
+            ],
+            [
+                "Zombie",
+                88,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Full Type",
+        "type": "category",
+        "pvs": [
+            [
+                "Alien",
+                9,
+                0
+            ],
+            [
+                "Ape",
+                24,
+                0
+            ],
+            [
+                "Female-Albino",
+                420,
+                0
+            ],
+            [
+                "Female-Dark",
+                1101,
+                0
+            ],
+            [
+                "Female-Light",
+                1145,
+                0
+            ],
+            [
+                "Female-Mid",
+                1174,
+                0
+            ],
+            [
+                "Male-Albino",
+                598,
+                0
+            ],
+            [
+                "Male-Dark",
+                1723,
+                0
+            ],
+            [
+                "Male-Light",
+                1861,
+                0
+            ],
+            [
+                "Male-Mid",
+                1857,
+                0
+            ],
+            [
+                "Zombie",
+                88,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Hair",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                246,
+                0
+            ],
+            [
+                "Bandana",
+                481,
+                0
+            ],
+            [
+                "Beanie",
+                44,
+                0
+            ],
+            [
+                "Blonde Bob",
+                147,
+                0
+            ],
+            [
+                "Blonde Short",
+                129,
+                0
+            ],
+            [
+                "Cap",
+                351,
+                0
+            ],
+            [
+                "Cap Forward",
+                254,
+                0
+            ],
+            [
+                "Clown Hair Green",
+                148,
+                0
+            ],
+            [
+                "Cowboy Hat",
+                142,
+                0
+            ],
+            [
+                "Crazy Hair",
+                414,
+                0
+            ],
+            [
+                "Dark Hair",
+                157,
+                0
+            ],
+            [
+                "Do-rag",
+                300,
+                0
+            ],
+            [
+                "Fedora",
+                186,
+                0
+            ],
+            [
+                "Frumpy Hair",
+                442,
+                0
+            ],
+            [
+                "Half Shaved",
+                147,
+                0
+            ],
+            [
+                "Headband",
+                406,
+                0
+            ],
+            [
+                "Hoodie",
+                259,
+                0
+            ],
+            [
+                "Knitted Cap",
+                419,
+                0
+            ],
+            [
+                "Messy Hair",
+                460,
+                0
+            ],
+            [
+                "Mohawk",
+                441,
+                0
+            ],
+            [
+                "Mohawk Dark",
+                429,
+                0
+            ],
+            [
+                "Mohawk Thin",
+                441,
+                0
+            ],
+            [
+                "Orange Side",
+                68,
+                0
+            ],
+            [
+                "Peak Spike",
+                303,
+                0
+            ],
+            [
+                "Pigtails",
+                94,
+                0
+            ],
+            [
+                "Pilot Helmet",
+                54,
+                0
+            ],
+            [
+                "Pink With Hat",
+                95,
+                0
+            ],
+            [
+                "Police Cap",
+                203,
+                0
+            ],
+            [
+                "Purple Hair",
+                165,
+                0
+            ],
+            [
+                "Red Mohawk",
+                147,
+                0
+            ],
+            [
+                "Shaved Head",
+                300,
+                0
+            ],
+            [
+                "Straight Hair",
+                151,
+                0
+            ],
+            [
+                "Straight Hair Blonde",
+                144,
+                0
+            ],
+            [
+                "Straight Hair Dark",
+                148,
+                0
+            ],
+            [
+                "Stringy Hair",
+                463,
+                0
+            ],
+            [
+                "Tassle Hat",
+                178,
+                0
+            ],
+            [
+                "Tiara",
+                55,
+                0
+            ],
+            [
+                "Top Hat",
+                115,
+                0
+            ],
+            [
+                "Vampire Hair",
+                147,
+                0
+            ],
+            [
+                "Wild Blonde",
+                144,
+                0
+            ],
+            [
+                "Wild Hair",
+                447,
+                0
+            ],
+            [
+                "Wild White Hair",
+                136,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Eyes",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                3928,
+                0
+            ],
+            [
+                "3D Glasses",
+                286,
+                0
+            ],
+            [
+                "Big Shades",
+                535,
+                0
+            ],
+            [
+                "Blue Eye Shadow",
+                266,
+                0
+            ],
+            [
+                "Classic Shades",
+                502,
+                0
+            ],
+            [
+                "Clown Eyes Blue",
+                384,
+                0
+            ],
+            [
+                "Clown Eyes Green",
+                382,
+                0
+            ],
+            [
+                "Eye Mask",
+                293,
+                0
+            ],
+            [
+                "Eye Patch",
+                461,
+                0
+            ],
+            [
+                "Green Eye Shadow",
+                271,
+                0
+            ],
+            [
+                "Horned Rim Glasses",
+                535,
+                0
+            ],
+            [
+                "Nerd Glasses",
+                572,
+                0
+            ],
+            [
+                "Purple Eye Shadow",
+                262,
+                0
+            ],
+            [
+                "Regular Shades",
+                527,
+                0
+            ],
+            [
+                "Small Shades",
+                378,
+                0
+            ],
+            [
+                "VR",
+                332,
+                0
+            ],
+            [
+                "Welding Goggles",
+                86,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Facial Hair",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                6497,
+                0
+            ],
+            [
+                "Big Beard",
+                146,
+                0
+            ],
+            [
+                "Chinstrap",
+                282,
+                0
+            ],
+            [
+                "Front Beard",
+                273,
+                0
+            ],
+            [
+                "Front Beard Dark",
+                260,
+                0
+            ],
+            [
+                "Goat",
+                295,
+                0
+            ],
+            [
+                "Handlebars",
+                263,
+                0
+            ],
+            [
+                "Luxurious Beard",
+                286,
+                0
+            ],
+            [
+                "Mustache",
+                288,
+                0
+            ],
+            [
+                "Muttonchops",
+                303,
+                0
+            ],
+            [
+                "Normal Beard",
+                292,
+                0
+            ],
+            [
+                "Normal Beard Black",
+                289,
+                0
+            ],
+            [
+                "Shadow Beard",
+                526,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Blemishes",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                9104,
+                0
+            ],
+            [
+                "Mole",
+                644,
+                0
+            ],
+            [
+                "Rosy Cheeks",
+                128,
+                0
+            ],
+            [
+                "Spots",
+                124,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Neck Accessory",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                9627,
+                0
+            ],
+            [
+                "Choker",
+                48,
+                0
+            ],
+            [
+                "Gold Chain",
+                169,
+                0
+            ],
+            [
+                "Silver Chain",
+                156,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Mouth Prop",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                8275,
+                0
+            ],
+            [
+                "Cigarette",
+                961,
+                0
+            ],
+            [
+                "Medical Mask",
+                175,
+                0
+            ],
+            [
+                "Pipe",
+                317,
+                0
+            ],
+            [
+                "Vape",
+                272,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Mouth",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                7455,
+                0
+            ],
+            [
+                "Black Lipstick",
+                617,
+                0
+            ],
+            [
+                "Buck Teeth",
+                78,
+                0
+            ],
+            [
+                "Frown",
+                261,
+                0
+            ],
+            [
+                "Hot Lipstick",
+                696,
+                0
+            ],
+            [
+                "Purple Lipstick",
+                655,
+                0
+            ],
+            [
+                "Smile",
+                238,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Nose",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                9788,
+                0
+            ],
+            [
+                "Clown Nose",
+                212,
+                0
+            ]
+        ]
+    },
+    {
+        "name": "Ears",
+        "type": "category",
+        "pvs": [
+            [
+                null,
+                7541,
+                0
+            ],
+            [
+                "Earring",
+                2459,
+                0
+            ]
+        ]
+    }
+]
